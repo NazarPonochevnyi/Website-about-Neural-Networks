@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<!-- IE compatibility -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Нейронные сети</title>
+
+	<!-- Favicons -->
+	<link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico">
+	
+	<!-- Raleway Font -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,800" rel="stylesheet">
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	<!-- Font Awesome -->
+	<script src="https://use.fontawesome.com/66dd491584.js"></script>
+
+	<!-- Plugins css -->
+	<link rel="stylesheet" href="css/plugins.css">
+	<!-- Css file -->
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+	<!-- Загрузчик страницы -->
+	<div class="loading-wrapper">
+		<span class="loader">
+			<span class="loader-inner"></span>
+		</span>
+	</div>
+	<!-- Конец загрузчика страницы -->
+
+	<!-- Начало Header -->
+	<div class="header" id="top">
+		<div class="top-header">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<a href="#top" class="logo scroll-link">
+							<img src="img/logo.png" alt="НC" title="Нейронные сети">
+						</a>
+						<button class="menu-button fa fa-bars" id="open-button"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Меню -->
+		<div class="menu-wrap">
+			<nav class="menu">
+				<div class="icon-list">
+					<a class="scroll-link" href="#top"><span>Главная</span></a>
+					<a class="scroll-link" href="#about"><span>Что это?</span></a>
+					<a class="scroll-link" href="#about_can"><span>Что она может?</span></a>
+					<a class="scroll-link" href="#course"><span>Курсы</span></a>
+					<a class="scroll-link" href="#advice"><span>Советы</span></a>
+					<a class="scroll-link" href="#question-answer"><span>Задать вопрос</span></a>
+				</div>
+				<button class="close-button fa fa-close" id="close-button"></button>
+			</nav>
+		</div>
+		
+		<!-- Параллакс еффект фона -->
+		<div class="parallax-wrapper">
+			<ul id="scene">
+				<li class="layer" data-depth="0.1"><div class="bg bg-1"></div></li>
+				<li class="layer" data-depth="0.30"><div class="cloud cloud-1 slide"></div></li>
+				<li class="layer" data-depth="0.40"><div class="cloud cloud-2 slide-1"></div></li>
+			</ul>
+		</div>
+		
+		<!-- Содержимое header -->
+		<div class="content-wrapper">
+			<div class="content">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<h1>Нейронные сети</h1>
+							<p>Лучший способ узнать будущее - создать его самостоятельно.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<!-- Конец Header -->
+
+	<!-- Начало "Что это?" -->
+	<section class="section" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 section-title text-center wow fadeInUp" data-wow-duration="1s" data-wow-offset="100">
+					<p>Для начинающих</p>
+					<h2>Что это?</h2>
+					<div class="separator"></div>
+				</div>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+					<p class="wow fadeInUp" data-wow-duration="1s" data-wow-offset="100">Искусственная нейронная сеть (ИНС) — это обучаемая система, которая действует не только в соответствии с заданным алгоритмом и формулами, но и на основании прошлого опыта. Этакий ребенок, который учится ходить, с каждым разом делая все меньше ошибок.</p>
+					<a href="#about_can" class="scroll-link custom-btn wow fadeInLeft" data-wow-duration="1s" data-wow-offset="100"><i class="fa fa-arrow-circle-right"></i>Дальше</a>
+					<a href="https://ru.wikipedia.org/wiki/%D0%98%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BD%D0%B5%D0%B9%D1%80%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F_%D1%81%D0%B5%D1%82%D1%8C" target="_blank" class="custom-btn wow fadeInRight" data-wow-duration="1s" data-wow-offset="100"><i class="fa fa-info-circle"></i>Подробнее</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Конец "Что это?" -->
+	
+	<!-- Начало "Что она может?" -->
+	<section id="about_can" class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 section-title text-center wow fadeInUp" data-wow-duration="1s" data-wow-offset="100">
+					<p>Для начинающих</p>
+					<h2>Что она может?</h2>
+					<div class="separator"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="service-wrapper col-sm-6 no-pd white-bg wow fadeInLeft" data-wow-duration="1s" data-wow-offset="100">
+					<div class="service text-center">
+						<i class="fa fa-eye fa-lg"></i>
+						<h3>Компьютерное зрение</h3>
+						<p>Вы не поверите, но нейронные сети отгадывают что нарисовано на картинке лучше чем человек! Нейронные сети используются для распознавания лиц, почерка, отпечатков пальцев и т.д.</p>
+					</div>
+				</div>
+				<div class="service-wrapper col-sm-6 no-pd wow fadeInRight" data-wow-duration="1s" data-wow-offset="100">
+					<div class="service text-center">
+						<i class="fa fa-comments-o fa-lg"></i>
+						<h3>Виртуальный собеседник</h3>
+						<p>С помощью специальных рекуррентных нейронных сетей, уже создали много потрясающих чат-ботов, которые с легкостью могут поговорить с тобой на разные темы.</p>
+					</div>
+				</div>
+				<div class="service-wrapper col-sm-6 no-pd wow fadeInLeft" data-wow-duration="1s" data-wow-offset="100">
+					<div class="service text-center">
+						<i class="fa fa-clock-o fa-lg"></i>
+						<h3>Прогнозирование</h3>
+						<p>Также нейронные сети используют для того чтобы прогнозировать совсем случайные вещи. Например, рост или убывание курсов валют, предсказание результатов выборов, анализ опросов, предсказание динамики рейтингов и т.д.</p>
+					</div>
+				</div>	
+				<div class="service-wrapper col-sm-6 no-pd white-bg wow fadeInRight" data-wow-duration="1s" data-wow-offset="100">
+					<div class="service text-center">
+						<i class="fa fa-car fa-lg"></i>
+						<h3>Автопилоты</h3>
+						<p>Вы слышали о машинах и самолетах, которые сами летают и не требуют вмешательства водителя? Именно с помощью нейронных сетей создали программу, которая может без ошибок управлять транспортным средством.</p>
+					</div>
+				</div>
+				<div class="service-wrapper col-sm-6 no-pd white-bg wow fadeInLeft" data-wow-duration="1s" data-wow-offset="100">
+					<div class="service text-center">
+						<i class="fa fa-gamepad fa-lg"></i>
+						<h3>Нейроигроки</h3>
+						<p>Сейчас стало очень популярно показывать силу и мощь нейронных сетей создавая ботов для разных игр. И это работает! Нейронная сеть компании Google поставила много мировых рекордов в играх Atari.</p>
+					</div>
+				</div>				
+				<div class="service-wrapper col-sm-6 no-pd wow fadeInRight" data-wow-duration="1s" data-wow-offset="100">
+					<div class="service text-center">
+						<i class="fa fa-life-bouy fa-lg"></i>
+						<h3>Постановка диагноза</h3>
+						<p>Как вы знаете, поставить точный диагноз больному человеку довольно-таки сложно. Но и тут на помощь пришла нейронная сеть. Нейронная сеть анализирует состояние человека и выводит точный диагноз больного.</p>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</section>
+	<!-- Конец "Что она может?" -->
+
+	<!-- Начало "Курсы" -->
+	<section id="course" class="section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12 section-title text-center">
+					<p>Для любителей</p>
+					<h2>Курсы</h2>
+					<div class="separator"></div>
+				</div>
+			</div>
+			<div class="row">
+				<!-- Курс 1 -->
+				<div class="project col-md-4 col-sm-6 col-xs-12">
+					<div class="mod-trig" data-toggle="modal" data-target="#stanford">
+						<!-- Заставка курса -->
+						<div class="project-img-wrapper">
+							<img class="center-block img-responsive" src="img/course/stanford.jpg" alt="Machine Learning course">
+						</div>
+						<div class="img-overlay">
+							<div class="overlay-text">
+								<h4>Машинное обучение</h4>
+								<p>Стэнфордский университет</p>
+							</div>
+						</div>
+					</div>	
+					<!-- Модальное окно -->
+					<div class="modal fade" id="stanford" tabindex="-1" role="dialog" aria-labelledby="label-stanford">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<!-- Начало Header модального окна -->
+								<div class="modal-header text-center">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<div class="container">
+										<div class="row">
+											<div class="col-xs-12">
+												<h2 class="modal-title" id="label-stanford">Машинное обучение</h2>
+												<div class="heading-underline centered"></div>
+												<p class="subtitle">Стэнфордский университет</p>
+											</div>
+										</div>
+									</div>
+								</div>  <!-- Конец Header модального окна -->
+								<!-- Body модального окна -->
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<!-- Заставка курса -->
+											<div class="col-xs-12">
+												<img class="center-block img-responsive" src="img/course/stanford.jpg" alt="Машинное обучение | Стэнфордский университет">
+											</div>
+										</div>
+										<div class="row">
+											<!-- Начало "О курсе" -->
+											<div class="project-description col-md-7 col-xs-12">
+												<h3>О курсе</h3>
+												<div class="separator goleft"></div>	
+												<p>Этот курс (CS229) - преподаваемый профессором Эндрю Нг - обеспечивает широкое введение в машинное обучение и распознавание статистических моделей. Темы включают контролируемое обучение, неконтролируемое обучение, теорию обучения, обучение подкреплению и адаптивный контроль. Также обсуждаются последние применения машинного обучения, такие как роботизированный контроль, интеллектуальный анализ данных, автономная навигация, биоинформатика, распознавание речи и обработка текстовых и веб-данных.</p>
+											</div>  
+											<!-- Конец "О курсе" -->
+											<!-- Начало "Детали курса" -->
+											<div class="project-details col-md-5 col-xs-12">
+												<h3>Детали курса</h3>
+												<div class="separator goleft"></div>	
+												<ul class="list-unstyled">
+													<li><span>Преподаватель:</span> Стэнфордский университет</li>
+													<li><span>Сроки:</span> -</li>
+													<li><span>Ссылка на курс:</span> <a href="https://www.youtube.com/playlist?list=PLA89DCFA6ADACE599" target="_blank">youtube.com</a></li>
+												</ul>
+											</div>  <!-- Конец "Детали курса" -->
+										</div>
+									</div>
+								</div>  <!-- Конец Body модального окна -->
+							</div>
+						</div>
+					</div>  
+					<!-- Конец модального окна -->
+				</div>
+
+				<!-- Курс 2 -->
+				<div class="project col-md-4 col-sm-6 col-xs-12">
+					<div class="mod-trig" data-toggle="modal" data-target="#toronto">
+						<!-- Заставка курса -->
+						<div class="project-img-wrapper">
+							<img class="center-block img-responsive" src="img/course/toronto.jpg" alt="Нейронные сети для машинного обучения | Университет Торонто">
+						</div>
+						<div class="img-overlay">
+							<div class="overlay-text">
+								<h4>Нейронные сети для машинного обучения</h4>
+								<p>Университет Торонто</p>
+							</div>
+						</div>
+					</div>	
+					<!-- Начало модального окна -->
+					<div class="modal fade" id="toronto" tabindex="-1" role="dialog" aria-labelledby="label_1">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<!-- Начало Header модального окна -->
+								<div class="modal-header text-center">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<div class="container">
+										<div class="row">
+											<div class="col-xs-12">
+												<h2 class="modal-title" id="label_1">Нейронные сети для машинного обучения</h2>
+												<div class="heading-underline centered"></div>
+												<p class="subtitle">Университет Торонто</p>
+											</div>
+										</div>
+									</div>
+								</div>  <!-- Конец Header модального окна -->
+								<!-- Body модального окна -->
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<!-- Заставка курса -->
+											<div class="col-xs-12">
+												<img class="center-block img-responsive" src="img/course/toronto.jpg" alt="Университет Торонто">
+											</div>
+										</div>
+										<div class="row">
+											<!-- Начало "О курсе" -->
+											<div class="project-description col-md-7 col-xs-12">
+												<h3>О курсе</h3>
+												<div class="separator goleft"></div>	
+												<p>Узнайте об искусственных нейронных сетях и о том, как они используются для машинного обучения, для распознавания речи и объектов, сегментации изображений, моделированию языка и движению человека. Мы будем подчеркивать как основные алгоритмы, так и практические трюки, необходимые для получения хорошо обученых нейронных сетей.</p>
+												<p>Этот курс содержит тот же контент, который был представлен на Coursera, начиная с 2013 года. Это не продолжение или обновление исходного курса. Он был адаптирован для новой платформы.</p>
+												<p>Пожалуйста, имейте в виду, что курс подходит для ученика среднего уровня - будет удобно с исчислением и с опытом программирования на языке Python.</p>
+											</div>  
+											<!-- Конец "О курсе" -->
+											<!-- Начало "Детали курса" -->
+											<div class="project-details col-md-5 col-xs-12">
+												<h3>Детали курса</h3>
+												<div class="separator goleft"></div>	
+												<ul class="list-unstyled">
+													<li><span>Преподаватель:</span> Университет Торонто</li>
+													<li><span>Сроки:</span> Регистрация до 12 Июня 2017</li>
+													<li><span>Ссылка на курс:</span> <a href="https://www.coursera.org/learn/neural-networks" target="_blank">coursera.org</a></li>
+												</ul>
+											</div>  <!-- Конец "Детали курса" -->
+										</div>
+									</div>
+								</div>  <!-- Конец Body модального окна -->
+							</div>
+						</div>
+					</div>  <!-- Конец модального окна -->
+				</div>
+
+				<!-- Курс 3 -->
+				<div class="project col-md-4 col-sm-6 col-xs-12">
+					<div class="mod-trig" data-toggle="modal" data-target="#imt">
+						<!-- Заставка курса -->
+						<div class="project-img-wrapper">
+							<img class="center-block img-responsive" src="img/course/imt.jpg" alt="Нейронная сеть в 11 строках на Python | Веб-сайт iamtrask.github.io">
+						</div>
+						<div class="img-overlay">
+							<div class="overlay-text">
+								<h4>Нейронная сеть в 11 строках на Python</h4>
+								<p>Веб-сайт iamtrask.github.io</p>
+							</div>
+						</div>
+					</div>
+					<!-- Модальное окно -->
+					<div class="modal fade" id="imt" tabindex="-1" role="dialog" aria-labelledby="label_2">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<!-- Начало Header модального окна -->
+								<div class="modal-header text-center">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<div class="container">
+										<div class="row">
+											<div class="col-xs-12">
+												<h2 class="modal-title" id="label_2">Нейронная сеть в 11 строках на Python</h2>
+												<div class="heading-underline centered"></div>
+												<p class="subtitle">Веб-сайт iamtrask.github.io</p>
+											</div>
+										</div>
+									</div>
+								</div>  <!-- Конец Header модального окна -->
+								<!-- Body модального окна -->
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<!-- Заставка курса -->
+											<div class="col-xs-12">
+												<img class="center-block img-responsive" src="img/course/imt.jpg" alt="Нейронная сеть в 11 строках на Python | Веб-сайт iamtrask.github.io">
+											</div>
+										</div>
+										<div class="row">
+											<!-- Начало "О курсе" -->
+											<div class="project-description col-md-7 col-xs-12">	
+												<h3>О курсе</h3>
+												<div class="separator goleft"></div>
+												<p>Я лучше всего учусь чему-то с помощью игрушки, с которой я могу играть. Эта статья учит методу обратному распространению ошибки с помощью очень простой игры на Python. Приятного чтения!</p>
+											</div>  <!-- Конец "О курсе" -->
+											<!-- Начало "Детали курса" -->
+											<div class="project-details col-md-5 col-xs-12">
+												<h3>Детали курса</h3>
+												<div class="separator goleft"></div>
+												<ul class="list-unstyled">
+													<li><span>Преподаватель:</span> Веб-сайт iamtrask.github.io</li>
+													<li><span>Сроки:</span> -</li>
+													<li><span>Ссылка на курс:</span> <a href="http://iamtrask.github.io/2015/07/12/basic-python-network/" target="_blank">iamtrask.github.io</a></li>
+												</ul>
+											</div>  <!-- Конец "Детали курса" -->
+										</div>
+									</div>
+								</div>  <!-- Конец Body модального окна -->
+							</div>
+						</div>
+					</div>  <!-- Конец Modal -->
+				</div> 
+
+				<!-- Курс 4 -->
+				<div class="project col-md-4 col-sm-6 col-xs-12">
+					<div class="mod-trig" data-toggle="modal" data-target="#facebook">
+						<!-- Заставка курса -->
+						<div class="project-img-wrapper">
+							<img class="center-block img-responsive" src="img/course/facebook.jpg" alt="Facebook Engineering | Янь Лекун">
+						</div>
+						<div class="img-overlay">
+							<div class="overlay-text">
+								<h4>Facebook Engineering</h4>
+								<p>Янь Лекун</p>
+							</div>
+						</div>
+					</div>	
+					<!-- Модальное окно -->
+					<div class="modal fade" id="facebook" tabindex="-1" role="dialog" aria-labelledby="label_3">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<!-- Начало Header модального окна -->
+								<div class="modal-header text-center">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<div class="container">
+										<div class="row">
+											<div class="col-xs-12">
+												<h2 class="modal-title" id="label_3">Facebook Engineering</h2>
+												<div class="heading-underline centered"></div>
+												<p class="subtitle">Глава Facebook по исследованиям ИИ Янь Лекун</p>
+											</div>
+										</div>
+									</div>
+								</div>  <!-- Конец Header модального окна -->
+								<!-- Body модального окна -->
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<!-- Заставка курса -->
+											<div class="col-xs-12">
+												<img class="center-block img-responsive" src="img/course/facebook.jpg" alt="Facebook Engineering | Янь Лекун">
+											</div>
+										</div>
+										<div class="row">
+											<!-- Начало "О курсе" -->
+											<div class="project-description col-md-7 col-xs-12">	
+												<h3>О курсе</h3>
+												<div class="separator goleft"></div>
+												<p>Технологические гиганты, такие как Facebook, Google, Microsoft и IBM считают, что в скором времени ИИ будет следующим по популярности после мобильных устройств. Поэтому для ускорения прогресса в этой области Facebook хочет расширить сообщество компаний, знающих и применяющих искусственный интеллект в своей работе.</p>
+												<p>Facebook публикует свои исследования в области искусственного интеллекта и машинного обучения, выступает на конференциях, делает свое программное обеспечение open sourse проектами, и всё это ради разоблачения мифов об ИИ и ускорения его развития. Сегодня, например, в своем блоге компания выпустила шесть коротких видео, призванных помочь разработчикам, ученым и простым людям разобраться в наиболее важных аспектах искусственного интеллекта.</p>
+											</div>  <!-- Конец "О курсе" -->
+											<!-- начало "Детали курса" -->
+											<div class="project-details col-md-5 col-xs-12">
+												<h3>Детали курса</h3>
+												<div class="separator goleft"></div>
+												<ul class="list-unstyled">
+													<li><span>Преподаватель:</span> Facebook (Янь Лекун)</li>
+													<li><span>Сроки:</span> -</li>
+													<li><span>Ссылка ан курс:</span> <a href="https://tproger.ru/news/machine-learning-in-13-minutes/" target="_blank">tproger.ru</a></li>
+												</ul>
+											</div>  <!-- Конец "Детали курса" -->
+										</div>
+									</div>
+								</div>  <!-- Конец Body модального окна -->
+							</div>
+						</div>
+					</div>  <!-- Конец Modal -->
+				</div>
+
+				<!-- Курс 5 -->
+				<div class="project col-md-4 col-sm-6 col-xs-12">
+					<div class="mod-trig" data-toggle="modal" data-target="#habrahabr">
+						<!-- Заставка курса -->
+						<div class="project-img-wrapper">
+							<img class="center-block img-responsive" src="img/course/habrahabr.jpg" alt="Нейронные сети за 1 день | Веб-сайт habrahabr.ru">
+						</div>
+						<div class="img-overlay">
+							<div class="overlay-text">
+								<h4>Нейронные сети за 1 день</h4>
+								<p>Веб-сайт habrahabr.ru</p>
+							</div>
+						</div>
+					</div>
+					<!-- Модальное окно -->
+					<div class="modal fade" id="habrahabr" tabindex="-1" role="dialog" aria-labelledby="label_4">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<!-- Начало Header модального окна -->
+								<div class="modal-header text-center">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<div class="container">
+										<div class="row">
+											<div class="col-xs-12">
+												<h2 class="modal-title" id="label_4">Нейронные сети за 1 день</h2>
+												<div class="heading-underline centered"></div>
+												<p class="subtitle">Веб-сайт habrahabr.ru</p>
+											</div>
+										</div>
+									</div>
+								</div>  <!-- Конец Header модального окна -->
+								<!-- Body модального окна -->
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<!-- Заставка курса -->
+											<div class="col-xs-12">
+												<img class="center-block img-responsive" src="img/course/habrahabr.jpg" alt="Нейронные сети за 1 день | Веб-сайт habrahabr.ru">
+											</div>
+										</div>
+										<div class="row">
+											<!-- начало "О курсе" -->
+											<div class="project-description col-md-7 col-xs-12">	
+												<h3>О курсе</h3>
+												<div class="separator goleft"></div>
+												<p>Всем привет. В этот раз мы попытаемся разобраться с нейронными сетями без биологии и за 1 день.</p>
+											</div>  <!-- Конец "О курсе" -->
+											<!-- начало "Детали курса" -->
+											<div class="project-details col-md-5 col-xs-12">
+												<h3>Детали курса</h3>
+												<div class="separator goleft"></div>
+												<ul class="list-unstyled">
+													<li><span>Преподаватель:</span> Веб-сайт habrahabr.ru</li>
+													<li><span>Сроки:</span> -</li>
+													<li><span>Ссылка на курс:</span> <a href="https://habrahabr.ru/post/320742/" target="_blank">habrahabr.ru</a></li>
+												</ul>
+											</div>  <!-- Конец "Детали курса" -->
+										</div>
+									</div>
+								</div>  <!-- Конец Body модального окна -->
+							</div>
+						</div>
+					</div>  <!-- Конец Modal -->
+				</div> 
+
+				<!-- Курс 6 -->
+				<div class="project col-md-4 col-sm-6 col-xs-12">
+					<div class="mod-trig" data-toggle="modal" data-target="#yandex">
+						<!-- Заставка курса -->
+						<div class="project-img-wrapper">
+							<img class="center-block img-responsive" src="img/course/yandex.jpg" alt="Курс «Машинное обучение» | Яндекс">
+						</div>
+						<div class="img-overlay">
+							<div class="overlay-text">
+								<h4>Курс «Машинное обучение»</h4>
+								<p>Школа анализа данных. Яндекс</p>
+							</div>
+						</div>
+					</div>	
+					<!-- Модальное окно -->
+					<div class="modal fade" id="yandex" tabindex="-1" role="dialog" aria-labelledby="label_5">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<!-- Начало Header модального окна -->
+								<div class="modal-header text-center">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<div class="container">
+										<div class="row">
+											<div class="col-xs-12">
+												<h2 class="modal-title" id="label_5">Курс «Машинное обучение»</h2>
+												<div class="heading-underline centered"></div>
+												<p class="subtitle">Школа анализа данных. Яндекс</p>
+											</div>
+										</div>
+									</div>
+								</div>  <!-- Конец Header модального окна -->
+								<!-- Body модального окна -->
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<!-- Заставка курса -->
+											<div class="col-xs-12">
+												<img class="center-block img-responsive" src="img/course/yandex.jpg" alt="Курс «Машинное обучение» | Яндекс">
+											</div>
+										</div>
+										<div class="row">
+											<!-- Начало "О курсе" -->
+											<div class="project-description col-md-7 col-xs-12">	
+												<h3>О курсе</h3>
+												<div class="separator goleft"></div>
+												<p>Курс от Школы Анализа Данных Яндекса, созданный в 2014 году и посвященный теоретическим основам реализации алгоритмов машинного обучения, и сопровождаемый реальными практическими примерами. Каждая ключевая тема выделена в отдельную лекцию и основательно разобрана.</p>
+												<p>В ходе курса рассматриваются различные методы классификации, основы нейронных сетей и методы их обучения.</p>
+												<p>Лектор: Константин Вячеславович Воронцов, старший научный сотрудник Вычислительного центра РАН. Заместитель директора по науке ЗАО «Форексис». Заместитель заведующего кафедрой «Интеллектуальные системы» ФУПМ МФТИ. Доцент кафедры «Математические методы прогнозирования» ВМК МГУ. Эксперт компании «Яндекс». Доктор физико-математических наук.</p>
+											</div>  <!-- Конец "О курсе" -->
+											<!-- Начало "Детали курса" -->
+											<div class="project-details col-md-5 col-xs-12">
+												<h3>Детали курса</h3>
+												<div class="separator goleft"></div>
+												<ul class="list-unstyled">
+													<li><span>Преподаватель:</span> Константин Воронцов (Яндекс)</li>
+													<li><span>Срок:</span> -</li>
+													<li><span>Ссылка на курс:</span> <a href="https://www.youtube.com/watch?list=PLJOzdkh8T5kp99tGTEFjH_b9zqEQiiBtC&v=qLBkB4sMztk" target="_blank">youtube.com</a></li>
+												</ul>
+											</div>  <!-- Конец "Детали курса" -->
+										</div>
+									</div>
+								</div>  <!-- Конец Body модального окна -->
+							</div>
+						</div>
+					</div>  <!-- Конец Modal -->
+				</div> 
+
+				<!-- Курс 7 -->
+				<div class="project col-md-4 col-sm-6 col-xs-12">
+					<div class="mod-trig" data-toggle="modal" data-target="#washington">
+						<!-- Заставка курса -->
+						<div class="project-img-wrapper">
+							<img class="center-block img-responsive" src="img/course/washington.jpg" alt="Специализация по машинному обучению | Вашингтонский университет">
+						</div>
+						<div class="img-overlay">
+							<div class="overlay-text">
+								<h4>Специализация по машинному обучению</h4>
+								<p>Вашингтонский университет</p>
+							</div>
+						</div>
+					</div>
+					<!-- Модальное окно -->
+					<div class="modal fade" id="washington" tabindex="-1" role="dialog" aria-labelledby="label_6">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<!-- Начало Header модального окна -->
+								<div class="modal-header text-center">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									<div class="container">
+										<div class="row">
+											<div class="col-xs-12">
+												<h2 class="modal-title" id="label_6">Специализация по машинному обучению</h2>
+												<div class="heading-underline centered"></div>
+												<p class="subtitle">Вашингтонский университет</p>
+											</div>
+										</div>
+									</div>
+								</div>  <!-- Конец Header модального окна -->
+								<!-- Body модального окна -->
+								<div class="modal-body">
+									<div class="container">
+										<div class="row">
+											<!-- Заставка курса -->
+											<div class="col-xs-12">
+												<img class="center-block img-responsive" src="img/course/washington.jpg" alt="Специализация по машинному обучению | Вашингтонский университет">
+											</div>
+										</div>
+										<div class="row">
+											<!-- Начало "О курсе" -->
+											<div class="project-description col-md-7 col-xs-12">	
+												<h3>О курсе</h3>
+												<div class="separator goleft"></div>
+												<p>Эта специализация ведущих исследователей из Вашингтонского университета ознакомит вас с интересной областью машинного обучения с высоким спросом. Посредством серии практических исследований вы получите прикладной опыт в основных областях машинного обучения, включая прогнозирование, классификацию, кластеризацию и информационный поиск. Вы научитесь анализировать большие и сложные наборы данных, создавать системы, которые будут адаптироваться и улучшаться с течением времени, и создавать интеллектуальные приложения, которые могут делать прогнозы из данных.</p>
+											</div>  <!-- Конец "О курсе" -->
+											<!-- Начало "Детали курса" -->
+											<div class="project-details col-md-5 col-xs-12">
+												<h3>Детали курса</h3>
+												<div class="separator goleft"></div>
+												<ul class="list-unstyled">
+													<li><span>Преподаватель:</span> Вашингтонский университет</li>
+													<li><span>Срок:</span> -</li>
+													<li><span>Ссылка на курс:</span> <a href="https://www.coursera.org/specializations/machine-learning" target="_blank">coursera.org</a></li>
+												</ul>
+											</div>  <!-- Конец "Детали курса" -->
+										</div>
+									</div>
+								</div>  <!-- Конец Body модального окна -->
+							</div>
+						</div>
+					</div>  <!-- Конец Modal -->
+				</div> 
+			</div>
+			<div class="row">
+				<div class="interest col-xs-12 col-md-8 col-md-offset-2 text-center">
+					<h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-offset="100">Заинтересованы?!</h3>
+					<p class="wow fadeInUp" data-wow-duration="1s" data-wow-offset="100" data-wow-delay="0.3s">Если тебе это интересно, и ты хочешь быть в тренде новостей,<br>нажми на кнопку ниже.</p>
+					<a href="https://tproger.ru/tag/ai/" target="_blank" class="custom-btn wow bounceIn" data-wow-duration="1s" data-wow-offset="100" data-wow-delay="0.6s">Новости</a>
+				</div>
+			</div>
+		</div>	
+	</section>
+	<!-- Конец "Курсы" -->
+
+	<!-- Начало "Советы" -->
+	<section id="advice" class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 section-title light text-center">
+					<p>Для профессионалов</p>
+					<h2>Советы</h2>
+					<div class="separator"></div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">	
+			<!-- Советы Slider -->
+			<div id="carousel" class="carousel slide" data-ride="carousel">
+				<!-- Items Wrapper -->
+				<div class="carousel-inner" role="listbox">
+					<!-- Совет 1 -->
+					<div class="item client text-center active">
+						<div class="row">
+							<div class="col-xs-12 col-md-8 col-md-offset-2">
+								<h3>Используйте нейронные сети правильно</h3>
+								<div class="quote">
+									<p>Нейронные сети позволяют решить задачу в случае, если предложить алгоритм путем многократного (или очень многократного) просмотра данных глазами невозможно. Например, если данных много, они нелинейные, зашумленные и/или большой размерности.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Совет 2 -->
+					<div class="item client text-center">
+						<div class="row">
+							<div class="col-xs-12 col-md-8 col-md-offset-2">
+								<h3>Перемешивайте выборку</h3>
+								<div class="quote">
+									<p>После того, как входные и выходные векторы данных собраны, если измерения независимы между собой – поменяйте порядок следования векторов произвольным образом. Это критично для корректного разделения выборки на Train/Test/Validation и всех методов обучения.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Совет 3 -->
+					<div class="item client text-center">
+						<div class="row">
+							<div class="col-xs-12 col-md-8 col-md-offset-2">
+								<h3>Нормируйте и центрируйте данные</h3>
+								<div class="quote">
+									<p>Для многослойных персептронов, и для многих других моделей значения входных данных должны лежать в пределах [-1;1]. Перед тем, как подавать их на нейросеть, вычтите из данных среднее и поделите все значения на максимальное значение.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Совет 4 -->
+					<div class="item client text-center">
+						<div class="row">
+							<div class="col-xs-12 col-md-8 col-md-offset-2">
+								<h3>Применяйте регуляризацию</h3>
+								<div class="quote">
+									<p>Регуляризация – это техника, которая позволяет избежать переобучения нейросети, даже если данных мало. Признак переобучившейся нейросети – большие значения весов, порядка сотен и тысяч, такая нейросеть не будет нормально работать на новых, не виденных ранее, данных.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Совет 5 -->
+					<div class="item client text-center">
+						<div class="row">
+							<div class="col-xs-12 col-md-8 col-md-offset-2">
+								<h3>Используйте новые алгоритмы обучения</h3>
+								<div class="quote">
+									<p>Я глубоко убежден, что реализовать обучение методом обратного распространения ошибки – святой долг каждого, кто работает с нейронными сетями. Но, этот метод очень стар, с тех пор появились более продвинутые методы, которые могут в разы улучшить качество обучения.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Левый и правый контроль -->
+				<a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+					<i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+					<span class="sr-only">Предыдущий</span>
+				</a>
+				<a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+				<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+					<span class="sr-only">Следующий</span>
+				</a>
+			</div>
+		</div>
+	</section>
+	<!-- Конец "Советы" -->
+
+	<!-- Начало "Вопрос-Ответ" -->
+	<section id="question-answer" class="section">
+		<div class="container-fluid">
+			<div class="row">
+				<!-- Обяснение к блоку -->
+				<div class="question-answer-details col-xs-12 col-md-6">
+					<div class="section-title wow fadeInUp" data-wow-duration="1s" data-wow-offset="100">
+						<p>Что-то не ясно?</p>
+						<h2>Задать вопрос</h2>
+						<div class="separator"></div>
+					</div>
+					<p class="wow fadeInUp" data-wow-duration="1s" data-wow-offset="100">Если у тебя возникли вопросы насчёт нейронных сетей, ты можешь отправить нам письмо и мы обязательно тебе поможем.</p>
+					<p class="wow fadeInUp" data-wow-duration="1s" data-wow-offset="100">Заполни форму ниже и нажми кнопку "Отправить".</p>
+					<!-- Ввод данных -->
+					<div class="info">
+						<h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-offset="100"><i class="fa fa-user-secret"> </i> Введите свое имя</h3>
+						<p class="wow fadeInLeft" data-wow-duration="1s" data-wow-offset="100"><input type="text" class="form-control input-lg" id="name" value="Ваше имя" /></p>
+						<h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-offset="100" data-wow-delay="0.3s"><i class="fa fa-envelope"> </i> Введите свой E-mail</h3>
+						<p class="wow fadeInLeft" data-wow-duration="1s" data-wow-offset="100" data-wow-delay="0.3s"><input type="text" class="form-control input-lg" id="email" value="Ваш E-mail" /></p>
+						<h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-offset="100" data-wow-delay="0.3s"><i class="fa fa-question"> </i> Введите свой вопрос</h3>
+						<p class="wow fadeInLeft" data-wow-duration="1s" data-wow-offset="100" data-wow-delay="0.3s"><textarea class="form-control input-lg" rows="8" id="question">Ваш вопрос</textarea></p>
+						<!-- Кнопка отправки данных -->
+						<a href="#" class="send-btn wow bounceIn" data-wow-duration="1s" data-wow-offset="100" data-wow-delay="0.6s">Отправить</a>
+						<!-- Модальные окна -->
+						<!-- Модальное окно 1 -->
+						<div id="allOk" class="modal fade">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-body">
+										<br><p style="color: green;">Ваш вопрос успешно отправлен!</p>
+									</div>
+									<div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Модальное окно 2 -->
+						<div id="noName" class="modal fade">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-body">
+										<br><p style="color: red;" >Введите свое настоящее имя!</p>
+									</div>
+									<div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Модальное окно 3 -->
+						<div id="noEmail" class="modal fade">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-body">
+										<br><p style="color: red;" >Введите свой настоящий E-mail!</p>
+									</div>
+									<div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Модальное окно 4 -->
+						<div id="noQuestion" class="modal fade">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-body">
+										<br><p style="color: red;" >Введите свой вопрос!</p>
+									</div>
+									<div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Конец "Вопрос-Ответ" -->
+
+	<!-- Начало Footer -->
+	<footer class="text-center">
+		<div class="container">
+			<!-- Логотип -->
+			<a href="#top" class="logo scroll-link">
+				<img src="img/logo.png" alt="Нейронные сети">
+			</a>
+			<!-- Название сайта -->
+			<h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-offset="0">Нейронные сети</h3>
+			<p class="copyright wow fadeInUp" data-wow-duration="1s" data-wow-offset="0" data-wow-delay="0.3s">&copy; 2017 Все права защищены.<br>Сайт сделан для конкурса <b>Поночевным Назаром</b></p>
+			<!-- Как связатся со мной -->
+			<ul class="social-links wow fadeInUp" data-wow-duration="1s" data-wow-offset="0" data-wow-delay="0.5s">
+				<li><a href="https://vk.com/nazarkrasava" class="fa fa-vk vk" target="_blank"></a></li>
+				<li><a href="https://github.com/NazarPonochevnyi" class="fa fa-github gh" target="_blank"></a></li>
+				<li><a href="https://ru.stackoverflow.com/" class="fa fa-stack-overflow sf" target="_blank"></a></li>
+				<li><a href="https://www.facebook.com/" class="fa fa-facebook fb" target="_blank"></a></li>
+				<li><a href="https://www.instagram.com/" class="fa fa-instagram ig" target="_blank"></a></li>
+			</ul>			
+		</div>
+	</footer>
+	<!-- Конец Footer -->
+
+	<!-- Начало To-Top кнопки -->
+	<div id="toTop">
+		<i class="fa fa-long-arrow-up"></i>
+	</div>
+	<!-- Конец To-Top кнопки -->
+
+	<!-- Различные плагины для сайта -->
+	<script src="js/plugins.js"></script>
+	<!-- Мои скрипты -->
+	<script src="js/scripts.js"></script>
+	<!-- Параллакс еффект фона -->
+	<script>
+		$('#scene').parallax({
+			scalarX: 25,
+			scalarY: 15,
+			frictionX: 0.1,
+			frictionY: 0.1
+		});
+	</script>
+	<!-- Инициализация всех wow-еффектов -->
+	<script>
+		new WOW().init();
+	</script>
+</body>
+</html>
